@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDemo", "EDemo\EDemo.csproj", "{30FCFC39-5CBB-4EBE-A992-C84AC1B76631}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyDB", "DummyDB\DummyDB.csproj", "{0F14A2EF-88BA-49B7-ACBF-B7B17437402A}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "EDemoDB", "EDemoDB\EDemoDB.sqlproj", "{FF4FF811-9E83-4D09-8395-92068491C7E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{30FCFC39-5CBB-4EBE-A992-C84AC1B76631}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30FCFC39-5CBB-4EBE-A992-C84AC1B76631}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30FCFC39-5CBB-4EBE-A992-C84AC1B76631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F14A2EF-88BA-49B7-ACBF-B7B17437402A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F14A2EF-88BA-49B7-ACBF-B7B17437402A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F14A2EF-88BA-49B7-ACBF-B7B17437402A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F14A2EF-88BA-49B7-ACBF-B7B17437402A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4FF811-9E83-4D09-8395-92068491C7E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4FF811-9E83-4D09-8395-92068491C7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4FF811-9E83-4D09-8395-92068491C7E0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FF4FF811-9E83-4D09-8395-92068491C7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4FF811-9E83-4D09-8395-92068491C7E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4FF811-9E83-4D09-8395-92068491C7E0}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
